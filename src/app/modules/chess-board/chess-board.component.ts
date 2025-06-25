@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ChessBoard } from '../../chess-logic/chess-board';
-import { FENChar } from '../../chess-logic/models';
+import { Color, FENChar } from '../../chess-logic/models';
 
 @Component({
   selector: 'app-chess-board',
@@ -10,5 +10,5 @@ import { FENChar } from '../../chess-logic/models';
 export class ChessBoardComponent {
   private chessBoard = new ChessBoard();
   public chessBoardView: (FENChar|null)[][] = this.chessBoard.chessBoardView;
-  public get playerColor(); Color{return this.chessBoard.playerColor;};
+  public get playerColor(): Color { return this.chessBoard.playerColor; };
 }
