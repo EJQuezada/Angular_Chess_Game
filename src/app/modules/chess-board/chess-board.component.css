@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+import { ChessBoard } from 'src/app/chess-logic/chess-board';
+
+
+@Component({
+    selector: 'app-chess-board',
+    templateUrl: './chess-board.component.html',
+    styleUrls: ['./chess-board.component.css']
+})
+export class ChessBoardComponent {
+    private chessBoard = new ChessBoard();
+
+}
