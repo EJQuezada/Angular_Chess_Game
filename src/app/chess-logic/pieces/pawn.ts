@@ -18,7 +18,7 @@ export class Pawn extends Piece{
     }
 
     private setBlackPawnDirections():void{
-        this._directions = this._directions.map((x, y) => ({x: -1*x, y}));
+        this._directions = this._directions.map(({ x, y }) => ({ x: -1 * x, y }));
     }
 
      public get hasMoved():boolean{
