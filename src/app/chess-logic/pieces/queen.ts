@@ -11,7 +11,7 @@ export class Queen extends Piece{
         { x: 1, y: 1},
         { x: -1, y: 0},
         { x: -1, y: 1},
-        { x: -1, y: -1},
+        { x: -1, y: -1}
     ];
 
     constructor(private pieceColor: Color) {
