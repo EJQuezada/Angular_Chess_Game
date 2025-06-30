@@ -20,5 +20,5 @@ export enum FENChar{
    BlackBishop="b",
    BlackRook="r",
    BlackQueen="q",
-   BlackKing="k",
+   BlackKing="k"
 }
