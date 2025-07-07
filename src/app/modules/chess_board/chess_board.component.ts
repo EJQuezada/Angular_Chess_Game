@@ -11,5 +11,9 @@ import { Color, FENChar } from '../../chess-logic/models';
 export class ChessBoardComponent {
   private chessBoard = new ChessBoard();
   public chessBoardView: (FENChar|null)[][] = this.chessBoard.chessBoardView;
-  public get playerColor(): Color { return this.chessBoard.playerColor; }
+  public get playerColor(): Color { return this.chessBoard.playerColor; };
+
+  public isSquare(x: number, y: number): boolean {
+    return ChessBoard.isSquareDark(x, y);
+  }
 }
