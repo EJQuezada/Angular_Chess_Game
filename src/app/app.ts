@@ -4,8 +4,8 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
-  templateUrl: '../app/modules/chess_board/chess_board.component.html',
-  styleUrl: '../app/modules/chess_board/chess_board.component.css'
+  templateUrl: '../app/modules/chess-board/chess-board.component.html',
+  styleUrl: '../app/modules/chess-board/chess-board.component.css'
 })
 export class App {
   protected title = 'chess-game';
