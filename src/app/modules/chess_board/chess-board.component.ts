@@ -5,8 +5,8 @@ import { Color, FENChar } from '../../chess-logic/models';
 
 @Component({
   selector: 'app-chess_board',
-  templateUrl: './chess_board.component.html',
-  styleUrls: ['./chess_board.component.css']
+  templateUrl: './chess-board.component.html',
+  styleUrls: ['./chess-board.component.css']
 })
 export class ChessBoardComponent {
   private chessBoard = new ChessBoard();
