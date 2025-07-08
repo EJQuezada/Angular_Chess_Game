@@ -13,7 +13,7 @@ export class ChessBoardComponent {
   public chessBoardView: (FENChar|null)[][] = this.chessBoard.chessBoardView;
   public get playerColor(): Color { return this.chessBoard.playerColor; };
 
-  public isSquare(x: number, y: number): boolean {
+  public isSquareDark(x: number, y: number): boolean {
     return ChessBoard.isSquareDark(x, y);
   }
 }
