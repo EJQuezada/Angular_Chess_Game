@@ -6,6 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 @Component({
   selector: 'app-chess-board',
   imports: [RouterOutlet, CommonModule, BrowserModule, NgFor],
+  templateUrl: './app.component.html',
    styleUrls: ['./app.component.css']
 })
 export class ChessBoardComponent {
