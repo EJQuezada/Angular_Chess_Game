@@ -5,10 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-chess-board',
-  standalone: true,
   imports: [RouterOutlet, CommonModule, BrowserModule, NgFor],
-   templateUrl: './chess-board.component.html',
-  styleUrls: ['./app.component.css']
+   styleUrls: ['./app.component.css']
 })
 export class ChessBoardComponent {
   title = 'chess-game';
